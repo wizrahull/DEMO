@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @king %>
+
+<div>
+  <%= link_to "Edit this king", edit_king_path(@king) %> |
+  <%= link_to "Back to kings", kings_path %>
+
+  <%= button_to "Destroy this king", @king, method: :delete %>
+</div>
